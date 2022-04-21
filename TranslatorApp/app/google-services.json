@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "547024207770",
+    "project_id": "translation-app-9dd33",
+    "storage_bucket": "translation-app-9dd33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547024207770:android:8c5302a60c98832aadc423",
+        "android_client_info": {
+          "package_name": "com.khwarizmi.translatorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547024207770-kj0i1glt18idnf5q9otpqffvea8cr2jq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzmgm86F1GInjQF6EJGXkeUScJcpoaoZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547024207770-kj0i1glt18idnf5q9otpqffvea8cr2jq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

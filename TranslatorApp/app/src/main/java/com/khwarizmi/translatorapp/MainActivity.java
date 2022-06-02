@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
     MaterialButton translateBtn;
     TextView translatedTv;
 
-    String[] fromLanguages = {"French", "Spanish", "English"};
-    String[] toLanguages = {"French", "Spanish", "English"};
+    String[] fromLanguages = {"French", "Spanish", "English", "Japanese"};
+    String[] toLanguages = {"French", "Spanish", "English", "Japanese"};
     private static final int REQUEST_PERMISSION_CODE = 1;
     int languageCode, fromLanguagecode, toLanguageCode;
 
@@ -64,6 +64,9 @@ public class MainActivity extends AppCompatActivity {
                 if(adapterView.getItemAtPosition(position).toString().equals("French")) {
                     fromLanguagecode = FirebaseTranslateLanguage.FR;
                 }
+                if(adapterView.getItemAtPosition(position).toString().equals("Japanese")) {
+                    fromLanguagecode = FirebaseTranslateLanguage.JP;
+                }
             }
 
             @Override
@@ -87,6 +90,9 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if(adapterView.getItemAtPosition(position).toString().equals("French")) {
                     toLanguageCode = FirebaseTranslateLanguage.FR;
+                }
+                if(adapterView.getItemAtPosition(position).toString().equals("Japanese")) {
+                    toLanguageCode = FirebaseTranslateLanguage.JP;
                 }
 
 
